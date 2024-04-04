@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#"><span class="text-danger">Web</span>Pro</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">SERVICES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">PORTFOLIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">CONTACT</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/home-1.jpg" class="d-block w-100" alt="images-fluid">
+        <div class="carousel-caption">
+          <h6>Web Designer</h6>
+          <h5>Sakshan</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit<br> Iure, perferendis!</p>
+          <p><a href="#" class="btn btn-danger mt-3">Learn More</a></p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/home-2.jpg" class="d-block w-100" alt="images-fluid">
+        <div class="carousel-caption">
+          <h6>Graphics Designer</h6>
+          <h5>Davis</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit<br> Iure, perferendis!</p>
+          <p><a href="#" class="btn btn-danger mt-3">Learn More</a></p>
+
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/home-3.jpg" class="d-block w-100" alt="images-fluid">
+        <div class="carousel-caption">
+          <h6>UI/UX Designer</h6>
+          <h5>Jaswant</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit<br> Iure, perferendis!</p>
+          <p><a href="#" class="btn btn-danger mt-3">Learn More</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section id="about" class="about section-padding">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-4 col-md-12 col-12">
+          <div class="about-images text-center"> <!-- Added text-center class for image alignment -->
+            <img src="images/about-1.png" class="img-fluid"> <!-- Updated class to img-fluid -->
+          </div>
+        </div>
+        <div class="col-lg-8 col-md-12 col-12 mt-md-0 mt-4">
+          <div class="about-text">
+            <h2>We are Award Winning Designers <br>With 10+ Years Experience</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente commodi excepturi quidem perferendis
+              laudantium odit quisquam ratione. Magnam sapiente saepe amet? Adipisci excepturi consequatur esse, animi
+              expedita corporis impedit ipsum laboriosam fugiat ipsa deleniti aut molestiae quas. Veniam, alias
+              dolorum assumenda, quo, quam dolor nemo et harum totam sequi obcaecati.</p>
+            <a href="#" class="btn btn-danger">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="services" class="services section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-header text-center pb-5"> <!-- Corrected class name to text-center -->
+            <h2>Our Services</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, laudantium?</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-12 col-lg-4">
+          <div class="card text-white text-center bg-dark pb-2">
+            <div class="card-body">
+              <i class="bi bi-laptop"></i>
+              <h3 class="card-title">UI/UX Designer</h3>
+              <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto voluptas consectetur
+                perferendis delectus accusantium nesciunt!</p>
+              <button class="btn btn-danger">Read More</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-12 col-lg-4">
+          <div class="card text-white text-center bg-dark pb-2">
+            <div class="card-body">
+              <i class="bi bi-journal"></i>
+              <h3 class="card-title">Web Designer</h3>
+              <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto voluptas consectetur
+                perferendis delectus accusantium nesciunt!</p>
+              <button class="btn btn-danger">Read More</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-12 col-lg-4">
+          <div class="card text-white text-center bg-dark pb-2">
+            <div class="card-body">
+              <i class="bi bi-intersect"></i>
+              <h3 class="card-title">Graphics Designer</h3>
+              <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto voluptas consectetur
+                perferendis delectus accusantium nesciunt!</p>
+              <button class="btn btn-danger">Read More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="portfolio" class="portfolio section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-header text-center pb-5"> <!-- Corrected class name to text-center -->
+            <h2>Our Projects</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, laudantium?</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md col-lg-4">
+          <div class="card text-light text-center bg-dark pb-2">
+            <div class="card-body text-white">
+              <div class="images-area mb4">
+                <img src="images/project-1.jpg" alt="" class="img-fluid"> <!-- Updated class to img-fluid -->
+              </div>
+              <h3 class="card-title">Wordpress Theme</h3>
+              <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia corrupti excepturi
+                maiores repellat voluptas debitis ea culpa natus rem provident.</p>
+              <button class="btn btn-danger">Learn More</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md col-lg-4">
+          <div class="card text-light text-center bg-dark pb-2">
+            <div class="card-body text-white">
+              <div class="images-area mb4">
+                <img src="images/project-2.jpg" alt="" class="img-fluid"> <!-- Updated class to img-fluid -->
+              </div>
+              <h3 class="card-title">HTML Theme</h3>
+              <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia corrupti excepturi
+                maiores repellat voluptas debitis ea culpa natus rem provident.</p>
+              <button class="btn btn-danger">Learn More</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md col-lg-4">
+          <div class="card text-light text-center bg-dark pb-2">
+            <div class="card-body text-white">
+              <div class="images-area mb4">
+                <img src="images/project-3.jpg" alt="" class="img-fluid"> <!-- Updated class to img-fluid -->
+              </div>
+              <h3 class="card-title">Joomla Theme</h3>
+              <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia corrupti excepturi
+                maiores repellat voluptas debitis ea culpa natus rem provident.</p>
+              <button class="btn btn-danger">Learn More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- team -->
+  <section id="team" class="team section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-header text-center pb-5"> <!-- Corrected class name to text-center -->
+            <h2>Our Team</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, laudantium?</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card text-center bg-dark text-white">
+            <div class="card-body">
+              <img src="images/team-1.jpg" alt="" class="img-fluid rounded-circle"> <!-- Updated class to img-fluid -->
+              <h3 class="card-title py-2">Josh Lee</h3>
+              <h5 class="card-title py-1">Web Designer</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae natus fuga
+                aliquam veritatis
+                voluptas unde deserunt aut doloremque, culpa aspernatur!</p>
+              <p class="socials">
+                <i class="bi bi-twitter text-white mx-1"></i>
+                <i class="bi bi-facebook text-white mx-1"></i>
+                <i class="bi bi-linkedin text-white mx-1"></i>
+                <i class="bi bi-instagram text-white mx-1"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card text-center bg-dark text-white">
+            <div class="card-body">
+              <img src="images/team-2.jpg" alt="" class="img-fluid rounded-circle"> <!-- Updated class to img-fluid -->
+              <h3 class="card-title py-2">Mark Hill</h3>
+              <h5 class="card-title py-1">UI/UX Designer</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae natus fuga
+                aliquam veritatis
+                voluptas unde deserunt aut doloremque, culpa aspernatur!</p>
+              <p class="socials">
+                <i class="bi bi-twitter text-white mx-1"></i>
+                <i class="bi bi-facebook text-white mx-1"></i>
+                <i class="bi bi-linkedin text-white mx-1"></i>
+                <i class="bi bi-instagram text-white mx-1"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card text-center bg-dark text-white">
+            <div class="card-body">
+              <img src="images/team-3.jpg" alt="" class="img-fluid rounded-circle"> <!-- Updated class to img-fluid -->
+              <h3 class="card-title py-2">Josh </h3>
+              <h5 class="card-title py-1">Graphics Designer</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae natus fuga
+                aliquam veritatis
+                voluptas unde deserunt aut doloremque, culpa aspernatur!</p>
+              <p class="socials">
+                <i class="bi bi-twitter text-white mx-1"></i>
+                <i class="bi bi-facebook text-white mx-1"></i>
+                <i class="bi bi-linkedin text-white mx-1"></i>
+                <i class="bi bi-instagram text-white mx-1"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card text-center bg-dark text-white">
+            <div class="card-body">
+              <img src="images/team-4.jpg" alt="" class="img-fluid rounded-circle"> <!-- Updated class to img-fluid -->
+              <h3 class="card-title py-2">Yash</h3>
+              <h5 class="card-title py-1">Developer</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae natus fuga aliquam veritatis
+ voluptas unde deserunt aut doloremque, culpa aspernatur!</p>
+                <p class="socials">
+                  <i class="bi bi-twitter text-white mx-1"></i>
+                  <i class="bi bi-facebook text-white mx-1"></i>
+                  <i class="bi bi-linkedin text-white mx-1"></i>
+                  <i class="bi bi-instagram text-white mx-1"></i>
+                </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- contact -->
+  <section id="contact" class="contact section-padding">
+    <div class="container mt-5 mb-5">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-header text-center pb-5"> <!-- Corrected class name to text-center -->
+            <h2>Contact Us</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, laudantium?</p>
+          </div>
+        </div>
+      </div>
+      <div class="row m-0">
+        <div class="col-mb-12 p-0 pt-4 pb-4">
+          <form action="#" class="bg-dark p-4 m-auto">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="mb-3">
+                  <input type="text" class="form-control" placeholder="Full Name" required>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="mb-3">
+                  <input type="email" class="form-control" placeholder="E-mail" required>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="mb-3">
+                  <textarea rows="3" class="form-control" placeholder="message" required></textarea>
+                </div>
+              </div>
+              <button class="btn btn-danger btn-lg btn-block mt-3" type="button">Send Now</button> 
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer class="bg-dark p-4 text-center">
+    <div class="container">
+      <h2>Web <span>Pro</span></h2>
+      <p class="text-white">All Right Reserved by @website name</p>
+      <p class="socials">
+        <i class="bi bi-twitter text-white mx-1"></i>
+        <i class="bi bi-facebook text-white mx-1"></i>
+        <i class="bi bi-linkedin text-white mx-1"></i>
+        <i class="bi bi-instagram text-white mx-1"></i>
+      </p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
